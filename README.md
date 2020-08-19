@@ -7,6 +7,8 @@ The code refers to the following repo:
 
 A STFT/iSTFT written up in PyTorch(py3) using 1D Convolutions. There are two window logic, `break` and `continue`.
 - `break` - a kaldi-like framing method
+
+
 When the parameters `win_len` and `fft_len` are different, padding `fft_len`-`win_len` zero points after each frame( len(frame) = `win_len` ), and the window ( len(window) = `win_len` ) always wise-multiply with frame before padding.
 
 - `continue` - a librosa-like framing method.
