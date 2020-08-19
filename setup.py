@@ -25,4 +25,4 @@ setup(name=NAME,
       packages=["conv_stft"],
       install_requires=["numpy","scipy"],
       python_requires=">=3.5",
-      license="Apache V2.0")
+      license="MIT")
