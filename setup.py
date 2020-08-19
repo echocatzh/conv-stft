@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 NAME = 'conv_stft'
-VERSION = "0.1.1"
+VERSION = "0.1.2"
 REQUIREMENTS = [
     'numpy',
     'scipy',
@@ -9,10 +9,6 @@ REQUIREMENTS = [
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-
-EXTRAS={
-        'tests': ['pytest']
-    }
 
 setup(name=NAME,
       version=VERSION,
