@@ -24,5 +24,5 @@ setup(name=NAME,
       author_email="shmzhang@npu-aslp.org",
       packages=["conv_stft"],
       install_requires=["numpy","scipy"],
-      python_requires=">=3.6",
+      python_requires=">=3.5",
       license="Apache V2.0")
