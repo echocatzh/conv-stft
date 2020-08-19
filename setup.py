@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 NAME = 'conv_stft'
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 REQUIREMENTS = [
     'numpy',
     'scipy',
