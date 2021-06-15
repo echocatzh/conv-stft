@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 NAME = 'conv_stft'
-VERSION = "0.1.2"
+VERSION = "0.2.0"
 REQUIREMENTS = [
     'numpy',
     'scipy',
@@ -20,5 +20,5 @@ setup(name=NAME,
       author_email="shmzhang@npu-aslp.org",
       packages=["conv_stft"],
       install_requires=["numpy","scipy"],
-      python_requires=">=3.5",
+    #   python_requires=">=3.5",
       license="MIT")
