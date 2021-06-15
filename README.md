@@ -1,6 +1,6 @@
 # Conv-STFT/iSTFT in PyTorch
 
-NOTE: This package will no longer be maintained, and the API calls in this repo are exactly the same in [torch-mfcc](https://github.com/echocatzh/torch-mfcc).
+NOTE!!!: This package will no longer be maintained, and the API calls in this repo are exactly the same in [torch-mfcc](https://github.com/echocatzh/torch-mfcc).
 ```python
 from conv_stft import STFT # same as below
 from torch_mfcc import STFT
