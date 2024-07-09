@@ -181,8 +181,8 @@ class STFT(th.nn.Module):
         rm_start, rm_end = self.pad_amount, self.pad_amount+self.num_samples
         outputs = outputs[..., rm_start:rm_end]
         coff = coff[..., rm_start:rm_end]
-        coffidx = th.where(coff > 1e-8)
-        outputs[coffidx] = outputs[coffidx]/(coff[coffidx])
+        coff = th.where(coff > 1e-8, coff, th.ones_like(coff))
+        outputs /= coff
         return outputs.squeeze(dim=1)
 
     def forward(self, inputs):
